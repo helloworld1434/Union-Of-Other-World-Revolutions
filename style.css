@@ -21,6 +21,13 @@
         font-family: "돋음";
         padding: 10px 100px;
     }
+    a{
+        text-decoration:none;
+    }
+    a:visited{
+        text-decoration: none;
+        color: blue;
+    }
     #nav{
         list-style: none;
         height: 50px;
