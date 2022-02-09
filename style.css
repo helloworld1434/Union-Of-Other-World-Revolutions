@@ -1,0 +1,70 @@
+@import url("main.css") only screen and (min-width:200px) and (max-width:480px);
+    
+@media (max-width: 767px){
+    body{
+        display: none;
+        content: "컴퓨터로 들어와주세요";
+    }
+}
+
+@media (min-width: 1200px) {
+    body{
+        background-color: #ffcccc;
+    }
+    p{
+        font-size: large;
+        font-family: "돋음";
+        padding: 6px;
+    }
+    h2{
+        float: left;
+        font-family: "돋음";
+        padding: 10px 100px;
+    }
+    #nav{
+        list-style: none;
+        height: 50px;
+        padding: 5px 1px;
+        margin: 0;
+        background: #2d2d2d;
+    }
+    #nav li{
+        float: left;
+        position: relative;
+        margin: 0px 30px;
+        padding: 10px 10px;
+    }
+    #nav li a{
+        display: block;
+        font-family: "Tmon몬소리";
+        font-weight: bold;
+        font-size: 26px;
+        padding: 0;
+        margin: 0;
+        color: #ffffff;
+        margin: 0;
+        text-decoration: none;
+        text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+    }
+    #nav li:hover > a{     
+        color: #afafaf;
+        margin: 0;
+        padding: 0;
+    }
+    #nav a.active{
+        color: red;
+    }
+    #title{
+        font-family: fantasy;
+        text-align: center;
+        padding: 6px;
+        font-size: 50px;
+        font-weight: bold;
+        color: palevioletred;
+    }
+    #center{
+        display: table;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
