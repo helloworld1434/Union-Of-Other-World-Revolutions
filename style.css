@@ -50,7 +50,7 @@
         padding: 3px;
         font-size: 35px;
         font-weight: bold;
-        color: palevioletred;
+        color: #6d6d6d;
     }
     #center{ /*중앙정렬*/
         display: table;
@@ -81,6 +81,9 @@
     }
     #vip{ /*VIP*/
         background-color: #900090;
+    }
+    #closePerson{ /*최측근*/
+        background-color: #006600;
     }
     #allianceMember{ /*연합원*/
         background-color: #8a8a8a;
@@ -152,12 +155,12 @@
     #best{
         float: left;
         font-family: "돋음";
-        padding: 10px 100px;
+        padding: 30px 100px;
     }
     #member{
         float: left;
         font-family: "돋음";
-        padding: 10px 20px;
+        padding: 0px 20px;
     }
     #allianceLeader{ /*연합장*/
         background-color: #ffbd1b;
