@@ -16,11 +16,6 @@
         font-family: "돋음";
         padding: 6px;
     }
-    h2{
-        float: left;
-        font-family: "돋음";
-        padding: 10px 100px;
-    }
     a{
         text-decoration:none;
     }
@@ -28,7 +23,7 @@
         text-decoration: none;
         color: blue;
     }
-    #nav{
+    #nav{ /*메뉴바*/
         list-style: none;
         height: 50px;
         padding: 5px 1px;
@@ -61,7 +56,7 @@
     #nav a.active{
         color: red;
     }
-    #title{
+    #title{ /*제목*/
         font-family: fantasy;
         text-align: center;
         padding: 6px;
@@ -69,9 +64,28 @@
         font-weight: bold;
         color: palevioletred;
     }
-    #center{
+    #center{ /*중앙정렬*/
         display: table;
         margin-left: auto;
         margin-right: auto;
+    }
+    #representative{
+        float: left;
+        font-family: "돋음";
+        padding: 10px 100px;
+    }
+    #member{
+        float: left;
+        font-family: "돋음";
+        padding: 10px 20px;
+    }
+    #executive{ /*간부*/
+        background-color: #ff3333;
+    }
+    #vip{ /*VIP*/
+        background-color: #900090;
+    }
+    #allianceMember{ /*연합원*/
+        background-color: #8a8a8a;
     }
 }
