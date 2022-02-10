@@ -69,7 +69,7 @@
         margin-left: auto;
         margin-right: auto;
     }
-    #representative{
+    #best{
         float: left;
         font-family: "돋음";
         padding: 10px 100px;
@@ -78,6 +78,15 @@
         float: left;
         font-family: "돋음";
         padding: 10px 20px;
+    }
+    #allianceLeader{ /*연합장*/
+        background-color: #ffbd1b;
+    }
+    #representative{ /*대표*/
+        background-color: #00bbaa;
+    }
+    #viceRepresentative{ /*부대표*/
+        background-color: #00bb00;
     }
     #executive{ /*간부*/
         background-color: #ff3333;
