@@ -2,8 +2,88 @@
     
 @media (max-width: 767px){
     body{
-        display: none;
-        content: "컴퓨터로 들어와주세요";
+        background-color: #ffcccc;
+    }
+    p{
+        font-size: large;
+        font-family: "돋음";
+        padding: 6px;
+    }
+    a{
+        text-decoration:none;
+    }
+    a:visited{
+        text-decoration: none;
+        color: blue;
+    }
+    #nav{ /*메뉴바*/
+        list-style: none;
+        height: 35px;
+        padding: 3px 0px;
+        margin: 0;
+        background: #2d2d2d;
+    }
+    #nav li{
+        float: left;
+        position: relative;
+        margin: 0px 0px;
+        padding: 8px 7px;
+    }
+    #nav li a{
+        display: block;
+        font-family: "Tmon몬소리";
+        font-weight: bold;
+        font-size: 18px;
+        padding: 0;
+        margin: 0;
+        color: #ffffff;
+        margin: 0;
+        text-decoration: none;
+        text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+    }
+    #nav a.active{
+        color: red;
+    }
+    #title{ /*제목*/
+        font-family: fantasy;
+        text-align: center;
+        padding: 3px;
+        font-size: 35px;
+        font-weight: bold;
+        color: palevioletred;
+    }
+    #center{ /*중앙정렬*/
+        display: table;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #best{
+        text-align: center;
+        font-family: "돋음";
+        padding: 5px;
+    }
+    #member{
+        text-align: center;
+        font-family: "돋음";
+        padding: 5px;
+    }
+    #allianceLeader{ /*연합장*/
+        background-color: #ffbd1b;
+    }
+    #representative{ /*대표*/
+        background-color: #00bbaa;
+    }
+    #directorGeneral{ /*부대표*/
+        background-color: #00bb00;
+    }
+    #executive{ /*간부*/
+        background-color: #ff3333;
+    }
+    #vip{ /*VIP*/
+        background-color: #900090;
+    }
+    #allianceMember{ /*연합원*/
+        background-color: #8a8a8a;
     }
 }
 
@@ -85,7 +165,7 @@
     #representative{ /*대표*/
         background-color: #00bbaa;
     }
-    #viceRepresentative{ /*부대표*/
+    #directorGeneral{ /*부대표*/
         background-color: #00bb00;
     }
     #executive{ /*간부*/
