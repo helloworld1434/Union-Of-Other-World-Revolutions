@@ -2,7 +2,7 @@
     
 @media (max-width: 767px){
     body{
-        background-color: #ffcccc;
+        background-color: #bbbbbb;
     }
     p{
         font-size: large;
@@ -89,7 +89,7 @@
 
 @media (min-width: 1200px) {
     body{
-        background-color: #ffcccc;
+        background-color: #cccccc;
     }
     p{
         font-size: large;
@@ -142,7 +142,7 @@
         padding: 6px;
         font-size: 50px;
         font-weight: bold;
-        color: palevioletred;
+        color: #6d6d6d;
     }
     #center{ /*중앙정렬*/
         display: table;
@@ -173,6 +173,9 @@
     }
     #vip{ /*VIP*/
         background-color: #900090;
+    }
+    #closePerson{ /*최측근*/
+        background-color: #006600;
     }
     #allianceMember{ /*연합원*/
         background-color: #8a8a8a;
