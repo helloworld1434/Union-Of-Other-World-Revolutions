@@ -94,8 +94,14 @@
     body{
         background-color: #cccccc;
     }
+    span{
+        color: black;
+    }
+    h2{
+        font-size: 26px;
+    }
     p{
-        font-size: 20px;
+        font-size: 22px;
         font-family: "돋음";
         padding: 15px 0px;
     }
@@ -143,7 +149,7 @@
         font-family: fantasy;
         text-align: center;
         padding: 6px;
-        font-size: 50px;
+        font-size: 60px;
         font-weight: bold;
         color: #6d6d6d;
     }
@@ -161,6 +167,10 @@
         float: left;
         font-family: "돋음";
         padding: 0px 20px;
+    }
+    #text{
+        padding: 30px 0px;
+        text-align: center;
     }
     #allianceLeader{ /*연합장*/
         background-color: #ffbd1b;
