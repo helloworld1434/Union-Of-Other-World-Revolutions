@@ -95,9 +95,9 @@
         background-color: #cccccc;
     }
     p{
-        font-size: large;
+        font-size: 20px;
         font-family: "돋음";
-        padding: 6px;
+        padding: 15px 0px;
     }
     a{
         text-decoration:none;
