@@ -7,6 +7,8 @@
     <link rel="shortcut icon" type="image/x-icon" href="icon.ico">
     <link rel="stylesheet" href="style.css">
 
+    <script type="text/javascript" src="script.js"></script>
+
     <title>이계 혁명 연합</title>
 </head>
 <body>
@@ -14,18 +16,15 @@
         <li><a href="index.html">이계 혁명 연합</a></li>
         <li><a href="memberIntroduce.html">멤버 소개</a></li>
         <li id="hide"><a href="authority.html">권한</a></li>
-        <li id="hide"><a href="rule.html" class="active">규칙</a></li>
+        <li id="hide"><a href="rule.html">규칙</a></li>
         <li><a href="other.html">기타</a></li>
     </ul>
 
-    <h1 id="title">규칙</h1>
+    <h1 id="title">투표</h1>
 
-    <p id="text"><b>
-        욕(특히 패드립) 금지<br><br>
-        다른 사람을 상처주는 말 금지<br><br>
-        이계 혁명 연합 디스코드에 누군가를 초대하기 전에 허락을 받고 초대하기<br><br>
-        디스코드 들어올때 닉네임을 익명으로 하기<br><br>
-        학교에서 우리의 존재를 알리지 않기<br><br>
-    </b></p>
+    <div id="center">
+        <input type="text" placeholder="닉네임을 입력해주세요." id="name">
+        <button onclick="printName();">확인</button>
+    </div>
 </body>
 </html>
