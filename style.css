@@ -87,16 +87,21 @@
         font-family: "돋음";
         padding: 15px 0px;
     }
-    input{
-        float: left;
+    div p{
+        font-size: 22px;
+        font-family: "돋음";
+    }
+    div input{
         height: 30px;
         font-size: 19px;
-
     }
     button{
-        float: left;
-        height: 35px;
-        font-size: 18px;
+        height: 40px;
+        width: 150px;
+        background-color: #9a9a9a;
+        font-size: 21px;
+        font-family: "돋음";
+        font-weight: bold;
     }
     #nav{ /*메뉴바*/
         list-style: none;
